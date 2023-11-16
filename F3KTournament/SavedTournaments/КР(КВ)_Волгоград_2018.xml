@@ -1,0 +1,3847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<F3KTournamentSavedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TasksList>
+    <Task>
+      <Index>A1</Index>
+      <Title>Last 5:00 in 10:00</Title>
+      <Rules>
+      В течение рабочего времени пилот может запустить модель неограниченное количество раз, но только последнее полетное время будет принято и записано как итоговый результат.
+      Любой запуск модели в течение рабочего времени отменяет предыдущий результат пилота.
+      Максимальное полетное время 300 секунд (5 минут).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Last flight, 5:00 max, 10:00 window</Description>
+      <Round>1</Round>
+      <TitleEn>Last 5:00 in 10:00</TitleEn>
+      <DescriptionEn>Last flight, 5:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>L1x5in10</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>300</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_A_last_flight_7min_window.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>1</ColCount2>
+      <Name>Последний полет</Name>
+    </Task>
+    <Task>
+      <Index>B</Index>
+      <Title>Last 2 x 4:00</Title>
+      <Rules>
+      Каждый пилот имеет право на неограниченное количество полетов, но только последний и предпоследний полеты будут зачтены.
+      Максимальное полетное время 240 секунд (4 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Last 2 flights, 4:00 max, 10:00 window</Description>
+      <Round>2</Round>
+      <TitleEn>Last 2 x 4:00</TitleEn>
+      <DescriptionEn>Last 2 flights, 4:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>L2x4</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>240</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>240</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_B_last_two_4min.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>2</ColCount2>
+      <Name>Два последних полета</Name>
+    </Task>
+    <Task>
+      <Index>C1</Index>
+      <Title>All up 3 x 3:00</Title>
+      <Rules>
+      Все пилоты должны запустить модели одновременно, в течение 3-х секунд после сигнала. Запуск модели ранее сигнала либо по истечении 3-х секунд после него аннулирует результат за полет.
+      Максимальное полетное время 180 секунд (3 минуты).
+    </Rules>
+      <Description>All up, 3 flights, 3:00 max</Description>
+      <Round>3</Round>
+      <TitleEn>All up 3 x 3:00</TitleEn>
+      <DescriptionEn>All up, 3 flights, 3:00 max</DescriptionEn>
+      <ShortTitle>AUp3x3</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_C_all_up_3_flights.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>0_min_3_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>1_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>0_min_3_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>1_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>0_min_3_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>5</ColCount2>
+      <Name>Одновременный старт</Name>
+    </Task>
+    <Task>
+      <Index>D</Index>
+      <Title>Ladder +15 sec</Title>
+      <Rules>
+      В течение рабочего времени число полетов не ограничено. В начале упражнения пилоту устанавливается цель – совершить полет длительностью не менее 30 секунд. Таким образом полетное время должно быть равным или быть больше: 30, 45, 60, 75, 90, 105, 120 секунд.
+      Достигнутое время отметить знаком (+, V, Х).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</Description>
+      <Round>4</Round>
+      <TitleEn>Ladder +15 sec</TitleEn>
+      <DescriptionEn>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</DescriptionEn>
+      <ShortTitle>Laddr</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>30</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>45</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>60</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>75</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>90</MaxTime>
+          <Text>T-5</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>105</MaxTime>
+          <Text>T-6</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-7</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_D_ladder.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>7</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>7</ColCount2>
+      <Name>Увеличение времени на 15 секунд</Name>
+    </Task>
+    <Task>
+      <Index>E</Index>
+      <Title>Poker</Title>
+      <Rules>
+      Перед запуском пилот заявляет и оглашает желаемое целевое время, которое становится максимально допустимым полетным временем.
+      Пилот может совершать неограниченное число полетов, чтобы достичь заявленного им времени. Только если ранее объявленная цель достигнута, пилот может заявить следующее целевое время.
+      Пилот может заявить не более 5 времен.
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Poker, 5 self nominated targets, 10:00 window</Description>
+      <Round>5</Round>
+      <TitleEn>Poker</TitleEn>
+      <DescriptionEn>Poker, 5 self nominated targets, 10:00 window</DescriptionEn>
+      <ShortTitle>Poker</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>0</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>0</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>0</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>0</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>0</MaxTime>
+          <Text>T-5</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_E_poker.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>5</ColCount2>
+      <Name>Покер</Name>
+    </Task>
+    <Task>
+      <Index>F</Index>
+      <Title>Best 3 of 6</Title>
+      <Rules>
+      Пилот может запустить модель не более 6 раз.
+      Максимальное полетное время - 180 секунд (3 минуты).
+      Итоговым результатом принимается сумма трех наибольших полетных времен.
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</Description>
+      <Round>6</Round>
+      <TitleEn>Best 3 of 6</TitleEn>
+      <DescriptionEn>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</DescriptionEn>
+      <ShortTitle>3of6</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_F_3_of_6.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>6</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>3</ColCount2>
+      <Name>3 из 6</Name>
+    </Task>
+    <Task>
+      <Index>H</Index>
+      <Title>1:00, 2:00, 3:00, 4:00</Title>
+      <Rules>
+      Каждый пилот имеет право на неограниченное число полетов.
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 4 flights, 1:00, 2:00, 3:00, 4:00 max in any order, 10:00 window</Description>
+      <Round>7</Round>
+      <TitleEn>1:00, 2:00, 3:00, 4:00</TitleEn>
+      <DescriptionEn>Best 4 flights, 1:00, 2:00, 3:00, 4:00 max in any order, 10:00 window</DescriptionEn>
+      <ShortTitle>1234</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>60</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>240</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_H_1_2_3_4.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>4</ColCount2>
+      <Name>1, 2, 3 и 4 минуты полета в любом порядке</Name>
+    </Task>
+    <Task>
+      <Index>G</Index>
+      <Title>Best 5 x 2:00</Title>
+      <Rules>
+      Каждый пилот имеет право на неограниченное число полетов.
+      Только наилучшие пять полетных времен будут суммироваться для определения конечного результата.
+      Максимальное полетное время – 120 секунд (2 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 5 flights, 2:00 max, 10:00 window</Description>
+      <Round>8</Round>
+      <TitleEn>Best 5 x 2:00</TitleEn>
+      <DescriptionEn>Best 5 flights, 2:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>5x2:00</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-5</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_G_5x2.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>5</ColCount2>
+      <Name>Пять лучших полетов, пять по 2-е</Name>
+    </Task>
+    <Task>
+      <Index>I</Index>
+      <Title>Best 3 x 200s</Title>
+      <Rules>
+      В течение рабочего времени число полетов не ограничено. Только наилучшие три полета будут суммированы для определения конечного результата.
+      Максимальное время одного полета 200 секунд (3 минуты 20 секунд).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 3 flights, 200s (3:20) max, 10:00 window</Description>
+      <Round>9</Round>
+      <TitleEn>Best 3 x 200s</TitleEn>
+      <DescriptionEn>Best 3 flights, 200s (3:20) max, 10:00 window</DescriptionEn>
+      <ShortTitle>3200</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>200</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>200</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>200</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_I_3x200s.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>3</ColCount2>
+      <Name>Три лучших полета</Name>
+    </Task>
+    <Task>
+      <Index>J</Index>
+      <Title>Last 3 x 3:00</Title>
+      <Rules>
+      В течение рабочего времени число полетов не ограничено.
+      Только три крайних полета будут зачтены.
+      Максимальное время одного полета 180 секунд (3 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Last 3 flights, 3:00 max, 10:00 window</Description>
+      <Round>10</Round>
+      <TitleEn>Last 3 x 3:00</TitleEn>
+      <DescriptionEn>Last 3 flights, 3:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>L3x3</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_J_last_three_3min.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>3</ColCount2>
+      <Name>Три крайних полета</Name>
+    </Task>
+    <Task>
+      <Index>A1</Index>
+      <Title>Last 5:00 in 10:00</Title>
+      <Rules>
+      В течение рабочего времени пилот может запустить модель неограниченное количество раз, но только последнее полетное время будет принято и записано как итоговый результат.
+      Любой запуск модели в течение рабочего времени отменяет предыдущий результат пилота.
+      Максимальное полетное время 300 секунд (5 минут).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Last flight, 5:00 max, 10:00 window</Description>
+      <Round>11</Round>
+      <TitleEn>Last 5:00 in 10:00</TitleEn>
+      <DescriptionEn>Last flight, 5:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>L1x5in10</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>300</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_A_last_flight_7min_window.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>1</ColCount2>
+      <Name>Последний полет</Name>
+    </Task>
+    <Task>
+      <Index>F</Index>
+      <Title>Best 3 of 6</Title>
+      <Rules>
+      Пилот может запустить модель не более 6 раз.
+      Максимальное полетное время - 180 секунд (3 минуты).
+      Итоговым результатом принимается сумма трех наибольших полетных времен.
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</Description>
+      <Round>12</Round>
+      <TitleEn>Best 3 of 6</TitleEn>
+      <DescriptionEn>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</DescriptionEn>
+      <ShortTitle>3of6</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_F_3_of_6.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>6</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>3</ColCount2>
+      <Name>3 из 6</Name>
+    </Task>
+    <Task>
+      <Index>G</Index>
+      <Title>Best 5 x 2:00</Title>
+      <Rules>
+      Каждый пилот имеет право на неограниченное число полетов.
+      Только наилучшие пять полетных времен будут суммироваться для определения конечного результата.
+      Максимальное полетное время – 120 секунд (2 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Best 5 flights, 2:00 max, 10:00 window</Description>
+      <Round>13</Round>
+      <TitleEn>Best 5 x 2:00</TitleEn>
+      <DescriptionEn>Best 5 flights, 2:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>5x2:00</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-5</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_G_5x2.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>5</ColCount2>
+      <Name>Пять лучших полетов, пять по 2-е</Name>
+    </Task>
+    <Task>
+      <Index>D</Index>
+      <Title>Ladder +15 sec</Title>
+      <Rules>
+      В течение рабочего времени число полетов не ограничено. В начале упражнения пилоту устанавливается цель – совершить полет длительностью не менее 30 секунд. Таким образом полетное время должно быть равным или быть больше: 30, 45, 60, 75, 90, 105, 120 секунд.
+      Достигнутое время отметить знаком (+, V, Х).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</Description>
+      <Round>14</Round>
+      <TitleEn>Ladder +15 sec</TitleEn>
+      <DescriptionEn>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</DescriptionEn>
+      <ShortTitle>Laddr</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>30</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>45</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>60</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>75</MaxTime>
+          <Text>T-4</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>90</MaxTime>
+          <Text>T-5</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>105</MaxTime>
+          <Text>T-6</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>120</MaxTime>
+          <Text>T-7</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_D_ladder.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>1</RowCount1>
+      <ColCount1>7</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>7</ColCount2>
+      <Name>Увеличение времени на 15 секунд</Name>
+    </Task>
+    <Task>
+      <Index>J</Index>
+      <Title>Last 3 x 3:00</Title>
+      <Rules>
+      В течение рабочего времени число полетов не ограничено.
+      Только три крайних полета будут зачтены.
+      Максимальное время одного полета 180 секунд (3 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+      <Description>Last 3 flights, 3:00 max, 10:00 window</Description>
+      <Round>15</Round>
+      <TitleEn>Last 3 x 3:00</TitleEn>
+      <DescriptionEn>Last 3 flights, 3:00 max, 10:00 window</DescriptionEn>
+      <ShortTitle>L3x3</ShortTitle>
+      <SubTasks>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-1</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-2</Text>
+        </SubTask>
+        <SubTask>
+          <MaxTime>180</MaxTime>
+          <Text>T-3</Text>
+        </SubTask>
+      </SubTasks>
+      <Audio>
+        <AudioInfo>
+          <FileName>description_task_J_last_three_3min.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>3_min_0_sec_prep.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>10_min_working.mp3</FileName>
+        </AudioInfo>
+        <AudioInfo>
+          <FileName>30_sec_landing.mp3</FileName>
+        </AudioInfo>
+      </Audio>
+      <RowCount1>2</RowCount1>
+      <ColCount1>5</ColCount1>
+      <RowCount2>1</RowCount2>
+      <ColCount2>3</ColCount2>
+      <Name>Три крайних полета</Name>
+    </Task>
+  </TasksList>
+  <JudgeList>
+    <Judge>
+      <FIO>1</FIO>
+      <Number>1</Number>
+    </Judge>
+    <Judge>
+      <FIO>2</FIO>
+      <Number>2</Number>
+    </Judge>
+    <Judge>
+      <FIO>3</FIO>
+      <Number>3</Number>
+    </Judge>
+    <Judge>
+      <FIO>4</FIO>
+      <Number>4</Number>
+    </Judge>
+    <Judge>
+      <FIO>5</FIO>
+      <Number>5</Number>
+    </Judge>
+    <Judge>
+      <FIO>6</FIO>
+      <Number>6</Number>
+    </Judge>
+    <Judge>
+      <FIO>7</FIO>
+      <Number>7</Number>
+    </Judge>
+    <Judge>
+      <FIO>8</FIO>
+      <Number>8</Number>
+    </Judge>
+    <Judge>
+      <FIO>9</FIO>
+      <Number>9</Number>
+    </Judge>
+  </JudgeList>
+  <PilotList>
+    <Pilot>
+      <Name>Павел</Name>
+      <Surname>Бондарев</Surname>
+      <MiddleName>Викторович</MiddleName>
+      <Rank>МС</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Новосибирск</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Павел</Name>
+      <Surname>Бедарев</Surname>
+      <MiddleName>Григорьевич</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>true</OutOfCredit>
+      <Team>Волгоград</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Александр</Name>
+      <Surname>Поротников</Surname>
+      <MiddleName>Викторович</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>true</OutOfCredit>
+      <Team>Новосибирск</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Вадим</Name>
+      <Surname>Антонов</Surname>
+      <MiddleName>Викторович</MiddleName>
+      <Rank>1</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Москва</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Дмитрий</Name>
+      <Surname>Ломовцев</Surname>
+      <MiddleName>Юрьевич</MiddleName>
+      <Rank>МС</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Ульяновск</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Андрей</Name>
+      <Surname>Ерохин</Surname>
+      <MiddleName>Викторович</MiddleName>
+      <Rank>МС</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Чита</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Александр</Name>
+      <Surname>Жданов</Surname>
+      <MiddleName>Иванович</MiddleName>
+      <Rank>1</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Москва</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Павел</Name>
+      <Surname>Русский</Surname>
+      <MiddleName>Геннадьевич</MiddleName>
+      <Rank>МС</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Москва</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Алексей</Name>
+      <Surname>Бащук</Surname>
+      <MiddleName>Александрович</MiddleName>
+      <Rank>1</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Ростов</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Андрей</Name>
+      <Surname>Ткачук</Surname>
+      <MiddleName>Николаевич</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Оренбург</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Максим</Name>
+      <Surname>Башкардинов</Surname>
+      <MiddleName>Владимирович</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>true</OutOfCredit>
+      <Team>Оренбург</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Антон</Name>
+      <Surname>Матвеев</Surname>
+      <MiddleName>Андреевич</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Волгоград</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Иван</Name>
+      <Surname>Кузнецов</Surname>
+      <MiddleName>Александрович</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Волгоград</Team>
+    </Pilot>
+    <Pilot>
+      <Name>Александр</Name>
+      <Surname>Пронин</Surname>
+      <MiddleName>Владимирович</MiddleName>
+      <Rank>2</Rank>
+      <OutOfCredit>false</OutOfCredit>
+      <Team>Ульяновск</Team>
+    </Pilot>
+  </PilotList>
+  <TasksScoresList>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="A1" xmlns:mstns="A1" xmlns="A1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="A1_x003A_1" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="A1">
+          <_x0031_ diffgr:id="11" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>146</Время-1>
+            <Суммарное_x0020_время>146</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="12" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>80</Время-1>
+            <Суммарное_x0020_время>80</Суммарное_x0020_время>
+            <Очки>762</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="13" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>59</Время-1>
+            <Суммарное_x0020_время>59</Суммарное_x0020_время>
+            <Очки>728</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="14" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>62</Время-1>
+            <Суммарное_x0020_время>62</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="15" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>105</Время-1>
+            <Суммарное_x0020_время>105</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="16" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>93</Время-1>
+            <Суммарное_x0020_время>93</Суммарное_x0020_время>
+            <Очки>886</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="17" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>169</Время-1>
+            <Суммарное_x0020_время>169</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="18" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>70</Время-1>
+            <Суммарное_x0020_время>70</Суммарное_x0020_время>
+            <Очки>864</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="19" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>57</Время-1>
+            <Суммарное_x0020_время>57</Суммарное_x0020_время>
+            <Очки>704</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="110" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="111" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="112" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="113" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>77</Время-1>
+            <Суммарное_x0020_время>77</Суммарное_x0020_время>
+            <Очки>951</Очки>
+          </_x0031_>
+          <_x0031_ diffgr:id="114" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>81</Время-1>
+            <Суммарное_x0020_время>81</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="B" xmlns:mstns="B" xmlns="B" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="B_x003A_2" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0032_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0032_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="B">
+          <_x0032_ diffgr:id="21" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>28</Время-1>
+            <Время-2>27</Время-2>
+            <Суммарное_x0020_время>55</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="22" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>83</Время-1>
+            <Время-2>36</Время-2>
+            <Суммарное_x0020_время>119</Суммарное_x0020_время>
+            <Очки>676</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="23" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>105</Время-1>
+            <Время-2>39</Время-2>
+            <Суммарное_x0020_время>144</Суммарное_x0020_время>
+            <Очки>818</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="24" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>93</Время-1>
+            <Время-2>55</Время-2>
+            <Суммарное_x0020_время>148</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="25" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>72</Время-1>
+            <Время-2>93</Время-2>
+            <Суммарное_x0020_время>165</Суммарное_x0020_время>
+            <Очки>938</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="26" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>43</Время-1>
+            <Время-2>54</Время-2>
+            <Суммарное_x0020_время>97</Суммарное_x0020_время>
+            <Очки>622</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="27" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>102</Время-1>
+            <Время-2>146</Время-2>
+            <Суммарное_x0020_время>248</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="28" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>87</Время-1>
+            <Время-2>89</Время-2>
+            <Суммарное_x0020_время>176</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="29" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>82</Время-1>
+            <Время-2>64</Время-2>
+            <Суммарное_x0020_время>146</Суммарное_x0020_время>
+            <Очки>936</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="210" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="211" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>42</Время-1>
+            <Время-2>25</Время-2>
+            <Суммарное_x0020_время>67</Суммарное_x0020_время>
+            <Очки>429</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="212" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="213" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0032_>
+          <_x0032_ diffgr:id="214" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>95</Время-1>
+            <Время-2>61</Время-2>
+            <Суммарное_x0020_время>156</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0032_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="C1" xmlns:mstns="C1" xmlns="C1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="C1_x003A_3" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0033_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0033_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="C1">
+          <_x0033_ diffgr:id="31" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="32" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>49</Время-1>
+            <Время-3>44</Время-3>
+            <Суммарное_x0020_время>93</Суммарное_x0020_время>
+            <Очки>389</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="33" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>99</Время-1>
+            <Время-2>72</Время-2>
+            <Время-3>72</Время-3>
+            <Суммарное_x0020_время>243</Суммарное_x0020_время>
+            <Очки>946</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="34" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>106</Время-1>
+            <Время-2>61</Время-2>
+            <Время-3>57</Время-3>
+            <Суммарное_x0020_время>224</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="35" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>55</Время-1>
+            <Время-2>56</Время-2>
+            <Время-3>62</Время-3>
+            <Суммарное_x0020_время>173</Суммарное_x0020_время>
+            <Очки>724</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="36" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>48</Время-1>
+            <Время-2>69</Время-2>
+            <Время-3>41</Время-3>
+            <Суммарное_x0020_время>158</Суммарное_x0020_время>
+            <Очки>661</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="37" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>63</Время-1>
+            <Время-2>81</Время-2>
+            <Время-3>89</Время-3>
+            <Суммарное_x0020_время>233</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="38" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>53</Время-1>
+            <Время-2>50</Время-2>
+            <Время-3>68</Время-3>
+            <Суммарное_x0020_время>171</Суммарное_x0020_время>
+            <Очки>715</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="39" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>54</Время-1>
+            <Время-2>116</Время-2>
+            <Время-3>69</Время-3>
+            <Суммарное_x0020_время>239</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="310" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>118</Время-1>
+            <Время-2>78</Время-2>
+            <Время-3>61</Время-3>
+            <Суммарное_x0020_время>257</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="311" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="312" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="313" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>123</Время-1>
+            <Время-2>64</Время-2>
+            <Время-3>66</Время-3>
+            <Суммарное_x0020_время>253</Суммарное_x0020_время>
+            <Очки>984</Очки>
+          </_x0033_>
+          <_x0033_ diffgr:id="314" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>99</Время-1>
+            <Время-2>84</Время-2>
+            <Время-3>60</Время-3>
+            <Суммарное_x0020_время>243</Суммарное_x0020_время>
+            <Очки>946</Очки>
+          </_x0033_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="D" xmlns:mstns="D" xmlns="D" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="D_x003A_4" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0034_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-5" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-6" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-7" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0034_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="D">
+          <_x0034_ diffgr:id="41" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="42" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>700</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="43" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Суммарное_x0020_время>135</Суммарное_x0020_время>
+            <Очки>450</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="44" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="45" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="46" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Суммарное_x0020_время>135</Суммарное_x0020_время>
+            <Очки>450</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="47" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="48" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+            <Штраф>100</Штраф>
+          </_x0034_>
+          <_x0034_ diffgr:id="49" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="410" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Суммарное_x0020_время>300</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="411" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Суммарное_x0020_время>135</Суммарное_x0020_время>
+            <Очки>643</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="412" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="413" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0034_>
+          <_x0034_ diffgr:id="414" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Суммарное_x0020_время>300</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0034_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="E" xmlns:mstns="E" xmlns="E" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="E_x003A_5" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0035_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-5" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0035_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="E">
+          <_x0035_ diffgr:id="51" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="52" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>45</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>45</Время-3>
+            <Время-4>45</Время-4>
+            <Время-5>45</Время-5>
+            <Суммарное_x0020_время>225</Суммарное_x0020_время>
+            <Очки>865</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="53" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>55</Время-1>
+            <Время-2>55</Время-2>
+            <Время-3>50</Время-3>
+            <Время-4>45</Время-4>
+            <Суммарное_x0020_время>205</Суммарное_x0020_время>
+            <Очки>788</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="54" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>35</Время-1>
+            <Время-2>50</Время-2>
+            <Время-3>65</Время-3>
+            <Время-4>55</Время-4>
+            <Время-5>55</Время-5>
+            <Суммарное_x0020_время>260</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="55" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>75</Время-1>
+            <Время-2>75</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>20</Время-5>
+            <Суммарное_x0020_время>305</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="56" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>67</Время-1>
+            <Время-2>57</Время-2>
+            <Время-3>57</Время-3>
+            <Время-4>57</Время-4>
+            <Время-5>41</Время-5>
+            <Суммарное_x0020_время>279</Суммарное_x0020_время>
+            <Очки>915</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="57" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>90</Время-1>
+            <Время-2>60</Время-2>
+            <Время-3>75</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>300</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="58" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>50</Время-1>
+            <Время-2>50</Время-2>
+            <Время-3>50</Время-3>
+            <Время-4>55</Время-4>
+            <Время-5>55</Время-5>
+            <Суммарное_x0020_время>260</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="59" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>45</Время-1>
+            <Время-2>60</Время-2>
+            <Время-3>75</Время-3>
+            <Время-4>60</Время-4>
+            <Время-5>65</Время-5>
+            <Суммарное_x0020_время>305</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="510" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>45</Время-1>
+            <Время-2>60</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>65</Время-4>
+            <Время-5>65</Время-5>
+            <Суммарное_x0020_время>295</Суммарное_x0020_время>
+            <Очки>967</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="511" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>40</Время-1>
+            <Суммарное_x0020_время>40</Суммарное_x0020_время>
+            <Очки>154</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="512" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="513" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>45</Время-1>
+            <Время-2>60</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>60</Время-4>
+            <Время-5>60</Время-5>
+            <Суммарное_x0020_время>285</Суммарное_x0020_время>
+            <Очки>934</Очки>
+          </_x0035_>
+          <_x0035_ diffgr:id="514" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>65</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>44</Время-4>
+            <Суммарное_x0020_время>229</Суммарное_x0020_время>
+            <Очки>751</Очки>
+          </_x0035_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="F" xmlns:mstns="F" xmlns="F" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="F_x003A_6" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0036_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0036_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="F">
+          <_x0036_ diffgr:id="61" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="62" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>89</Время-1>
+            <Время-2>76</Время-2>
+            <Время-3>111</Время-3>
+            <Суммарное_x0020_время>276</Суммарное_x0020_время>
+            <Очки>656</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="63" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>72</Время-1>
+            <Время-2>58</Время-2>
+            <Время-3>52</Время-3>
+            <Суммарное_x0020_время>182</Суммарное_x0020_время>
+            <Очки>432</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="64" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>130</Время-1>
+            <Время-2>70</Время-2>
+            <Время-3>98</Время-3>
+            <Суммарное_x0020_время>298</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="65" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>99</Время-1>
+            <Время-2>70</Время-2>
+            <Время-3>75</Время-3>
+            <Суммарное_x0020_время>244</Суммарное_x0020_время>
+            <Очки>580</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="66" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>151</Время-1>
+            <Время-2>105</Время-2>
+            <Время-3>64</Время-3>
+            <Суммарное_x0020_время>320</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="67" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>108</Время-3>
+            <Суммарное_x0020_время>468</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="68" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>138</Время-1>
+            <Время-2>104</Время-2>
+            <Время-3>92</Время-3>
+            <Суммарное_x0020_время>334</Суммарное_x0020_время>
+            <Очки>793</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="69" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>166</Время-2>
+            <Время-3>75</Время-3>
+            <Суммарное_x0020_время>421</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="610" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>92</Время-1>
+            <Время-2>93</Время-2>
+            <Время-3>67</Время-3>
+            <Суммарное_x0020_время>252</Суммарное_x0020_время>
+            <Очки>788</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="611" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>130</Время-1>
+            <Время-2>75</Время-2>
+            <Время-3>68</Время-3>
+            <Суммарное_x0020_время>273</Суммарное_x0020_время>
+            <Очки>853</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="612" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="613" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>65</Время-1>
+            <Время-2>80</Время-2>
+            <Время-3>134</Время-3>
+            <Суммарное_x0020_время>279</Суммарное_x0020_время>
+            <Очки>663</Очки>
+          </_x0036_>
+          <_x0036_ diffgr:id="614" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>82</Время-1>
+            <Время-2>76</Время-2>
+            <Время-3>72</Время-3>
+            <Суммарное_x0020_время>230</Суммарное_x0020_время>
+            <Очки>719</Очки>
+          </_x0036_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="H" xmlns:mstns="H" xmlns="H" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="H_x003A_7" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0037_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0037_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="H">
+          <_x0037_ diffgr:id="71" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="72" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>66</Время-2>
+            <Время-3>75</Время-3>
+            <Время-4>121</Время-4>
+            <Суммарное_x0020_время>322</Суммарное_x0020_время>
+            <Очки>761</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="73" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>100</Время-2>
+            <Время-3>100</Время-3>
+            <Время-4>141</Время-4>
+            <Суммарное_x0020_время>401</Суммарное_x0020_время>
+            <Очки>864</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="74" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>100</Время-2>
+            <Время-3>111</Время-3>
+            <Время-4>165</Время-4>
+            <Суммарное_x0020_время>436</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="75" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>49</Время-1>
+            <Время-2>66</Время-2>
+            <Время-3>84</Время-3>
+            <Время-4>240</Время-4>
+            <Суммарное_x0020_время>439</Суммарное_x0020_время>
+            <Очки>946</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="76" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>90</Время-2>
+            <Время-3>93</Время-3>
+            <Время-4>180</Время-4>
+            <Суммарное_x0020_время>423</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="77" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>70</Время-2>
+            <Время-3>100</Время-3>
+            <Время-4>123</Время-4>
+            <Суммарное_x0020_время>353</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="78" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>31</Время-1>
+            <Время-2>60</Время-2>
+            <Время-3>110</Время-3>
+            <Время-4>225</Время-4>
+            <Суммарное_x0020_время>426</Суммарное_x0020_время>
+            <Очки>918</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="79" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>86</Время-2>
+            <Время-3>90</Время-3>
+            <Время-4>228</Время-4>
+            <Суммарное_x0020_время>464</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="710" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>51</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>121</Время-3>
+            <Время-4>122</Время-4>
+            <Суммарное_x0020_время>414</Суммарное_x0020_время>
+            <Очки>979</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="711" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>41</Время-1>
+            <Время-2>47</Время-2>
+            <Время-3>151</Время-3>
+            <Время-4>167</Время-4>
+            <Суммарное_x0020_время>406</Суммарное_x0020_время>
+            <Очки>875</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="712" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="713" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>48</Время-1>
+            <Время-2>61</Время-2>
+            <Время-3>66</Время-3>
+            <Время-4>129</Время-4>
+            <Суммарное_x0020_время>304</Суммарное_x0020_время>
+            <Очки>719</Очки>
+          </_x0037_>
+          <_x0037_ diffgr:id="714" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>77</Время-2>
+            <Время-3>114</Время-3>
+            <Время-4>140</Время-4>
+            <Суммарное_x0020_время>391</Суммарное_x0020_время>
+            <Очки>924</Очки>
+          </_x0037_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="G" xmlns:mstns="G" xmlns="G" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="G_x003A_8" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0038_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-5" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0038_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="G">
+          <_x0038_ diffgr:id="81" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="82" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>52</Время-1>
+            <Время-2>53</Время-2>
+            <Время-3>72</Время-3>
+            <Время-4>81</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>378</Суммарное_x0020_время>
+            <Очки>761</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="83" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>60</Время-1>
+            <Время-2>63</Время-2>
+            <Время-3>65</Время-3>
+            <Время-4>58</Время-4>
+            <Время-5>69</Время-5>
+            <Суммарное_x0020_время>315</Суммарное_x0020_время>
+            <Очки>873</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="84" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>104</Время-1>
+            <Время-2>87</Время-2>
+            <Время-3>68</Время-3>
+            <Время-4>55</Время-4>
+            <Время-5>54</Время-5>
+            <Суммарное_x0020_время>368</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="85" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>82</Время-3>
+            <Время-4>60</Время-4>
+            <Время-5>57</Время-5>
+            <Суммарное_x0020_время>439</Суммарное_x0020_время>
+            <Очки>883</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="86" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>52</Время-1>
+            <Время-2>86</Время-2>
+            <Время-3>65</Время-3>
+            <Время-4>51</Время-4>
+            <Время-5>99</Время-5>
+            <Суммарное_x0020_время>353</Суммарное_x0020_время>
+            <Очки>710</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="87" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>100</Время-2>
+            <Время-3>120</Время-3>
+            <Время-4>98</Время-4>
+            <Время-5>96</Время-5>
+            <Суммарное_x0020_время>534</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="88" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>98</Время-2>
+            <Время-3>71</Время-3>
+            <Время-4>56</Время-4>
+            <Время-5>42</Время-5>
+            <Суммарное_x0020_время>387</Суммарное_x0020_время>
+            <Очки>779</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="89" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>96</Время-2>
+            <Время-3>92</Время-3>
+            <Время-4>69</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>497</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="810" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>73</Время-1>
+            <Время-2>62</Время-2>
+            <Время-3>78</Время-3>
+            <Время-4>87</Время-4>
+            <Время-5>57</Время-5>
+            <Суммарное_x0020_время>357</Суммарное_x0020_время>
+            <Очки>989</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="811" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>37</Время-1>
+            <Время-2>71</Время-2>
+            <Время-3>80</Время-3>
+            <Время-4>56</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>364</Суммарное_x0020_время>
+            <Очки>732</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="812" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="813" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>88</Время-1>
+            <Время-2>82</Время-2>
+            <Время-3>73</Время-3>
+            <Время-4>68</Время-4>
+            <Время-5>50</Время-5>
+            <Суммарное_x0020_время>361</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0038_>
+          <_x0038_ diffgr:id="814" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>76</Время-1>
+            <Время-2>70</Время-2>
+            <Время-3>37</Время-3>
+            <Время-4>36</Время-4>
+            <Время-5>36</Время-5>
+            <Суммарное_x0020_время>255</Суммарное_x0020_время>
+            <Очки>706</Очки>
+          </_x0038_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="I" xmlns:mstns="I" xmlns="I" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="I_x003A_9" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0039_">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0039_" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="I">
+          <_x0039_ diffgr:id="91" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="92" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>115</Время-1>
+            <Время-2>74</Время-2>
+            <Время-3>61</Время-3>
+            <Суммарное_x0020_время>250</Суммарное_x0020_время>
+            <Очки>610</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="93" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>71</Время-1>
+            <Время-2>79</Время-2>
+            <Время-3>83</Время-3>
+            <Суммарное_x0020_время>233</Суммарное_x0020_время>
+            <Очки>568</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="94" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>112</Время-1>
+            <Время-2>97</Время-2>
+            <Время-3>71</Время-3>
+            <Суммарное_x0020_время>280</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="95" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>61</Время-1>
+            <Время-2>68</Время-2>
+            <Время-3>92</Время-3>
+            <Суммарное_x0020_время>221</Суммарное_x0020_время>
+            <Очки>762</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="96" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>85</Время-1>
+            <Время-2>67</Время-2>
+            <Время-3>64</Время-3>
+            <Суммарное_x0020_время>216</Суммарное_x0020_время>
+            <Очки>745</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="97" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>200</Время-1>
+            <Время-2>117</Время-2>
+            <Время-3>97</Время-3>
+            <Суммарное_x0020_время>414</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="98" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>110</Время-1>
+            <Время-2>109</Время-2>
+            <Время-3>71</Время-3>
+            <Суммарное_x0020_время>290</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="99" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>83</Время-1>
+            <Время-2>95</Время-2>
+            <Время-3>100</Время-3>
+            <Суммарное_x0020_время>278</Суммарное_x0020_время>
+            <Очки>959</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="910" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>104</Время-1>
+            <Время-2>80</Время-2>
+            <Время-3>89</Время-3>
+            <Суммарное_x0020_время>273</Суммарное_x0020_время>
+            <Очки>941</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="911" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>65</Время-1>
+            <Время-2>75</Время-2>
+            <Время-3>65</Время-3>
+            <Суммарное_x0020_время>205</Суммарное_x0020_время>
+            <Очки>500</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="912" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="913" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>200</Время-1>
+            <Время-2>110</Время-2>
+            <Время-3>100</Время-3>
+            <Суммарное_x0020_время>410</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0039_>
+          <_x0039_ diffgr:id="914" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>74</Время-1>
+            <Время-2>62</Время-2>
+            <Время-3>62</Время-3>
+            <Суммарное_x0020_время>198</Суммарное_x0020_время>
+            <Очки>483</Очки>
+          </_x0039_>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="J" xmlns:mstns="J" xmlns="J" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="J_x003A_10" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_0" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="J">
+          <_x0031_0 diffgr:id="101" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="102" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>89</Время-1>
+            <Время-2>59</Время-2>
+            <Время-3>50</Время-3>
+            <Суммарное_x0020_время>198</Суммарное_x0020_время>
+            <Очки>538</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="103" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>111</Время-1>
+            <Время-2>81</Время-2>
+            <Время-3>88</Время-3>
+            <Суммарное_x0020_время>280</Суммарное_x0020_время>
+            <Очки>670</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="104" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>136</Время-1>
+            <Время-2>166</Время-2>
+            <Время-3>60</Время-3>
+            <Суммарное_x0020_время>362</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="105" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>172</Время-1>
+            <Время-3>158</Время-3>
+            <Суммарное_x0020_время>330</Суммарное_x0020_время>
+            <Очки>897</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="106" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>69</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>119</Время-3>
+            <Суммарное_x0020_время>368</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+            <Штраф>100</Штраф>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="107" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>176</Время-1>
+            <Время-2>163</Время-2>
+            <Время-3>68</Время-3>
+            <Суммарное_x0020_время>407</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="108" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>94</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>53</Время-3>
+            <Суммарное_x0020_время>327</Суммарное_x0020_время>
+            <Очки>889</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="109" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>65</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>123</Время-3>
+            <Суммарное_x0020_время>368</Суммарное_x0020_время>
+            <Очки>880</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="1010" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>115</Время-1>
+            <Время-2>104</Время-2>
+            <Время-3>151</Время-3>
+            <Суммарное_x0020_время>370</Суммарное_x0020_время>
+            <Очки>885</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="1011" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>52</Время-1>
+            <Время-2>76</Время-2>
+            <Время-3>53</Время-3>
+            <Суммарное_x0020_время>181</Суммарное_x0020_время>
+            <Очки>492</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="1012" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="1013" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>98</Время-1>
+            <Время-2>140</Время-2>
+            <Время-3>180</Время-3>
+            <Суммарное_x0020_время>418</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_0>
+          <_x0031_0 diffgr:id="1014" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>68</Время-1>
+            <Время-2>52</Время-2>
+            <Время-3>45</Время-3>
+            <Суммарное_x0020_время>165</Суммарное_x0020_время>
+            <Очки>395</Очки>
+          </_x0031_0>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="A1" xmlns:mstns="A1" xmlns="A1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="A1_x003A_11" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_1" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="A1">
+          <_x0031_1 diffgr:id="111" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="112" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>156</Время-1>
+            <Суммарное_x0020_время>156</Суммарное_x0020_время>
+            <Очки>571</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="113" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>273</Время-1>
+            <Суммарное_x0020_время>273</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="114" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>146</Время-1>
+            <Суммарное_x0020_время>146</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="115" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>68</Время-1>
+            <Суммарное_x0020_время>68</Суммарное_x0020_время>
+            <Очки>249</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="116" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>151</Время-1>
+            <Суммарное_x0020_время>151</Суммарное_x0020_время>
+            <Очки>553</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="117" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>125</Время-1>
+            <Суммарное_x0020_время>125</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="118" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>190</Время-1>
+            <Суммарное_x0020_время>190</Суммарное_x0020_время>
+            <Очки>880</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="119" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>216</Время-1>
+            <Суммарное_x0020_время>216</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="1110" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>176</Время-1>
+            <Суммарное_x0020_время>176</Суммарное_x0020_время>
+            <Очки>815</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="1111" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="1112" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="1113" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>178</Время-1>
+            <Суммарное_x0020_время>178</Суммарное_x0020_время>
+            <Очки>824</Очки>
+          </_x0031_1>
+          <_x0031_1 diffgr:id="1114" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>88</Время-1>
+            <Суммарное_x0020_время>88</Суммарное_x0020_время>
+            <Очки>407</Очки>
+          </_x0031_1>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="F" xmlns:mstns="F" xmlns="F" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="F_x003A_12" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_2">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_2" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="F">
+          <_x0031_2 diffgr:id="121" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="122" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>137</Время-1>
+            <Время-2>99</Время-2>
+            <Время-3>84</Время-3>
+            <Суммарное_x0020_время>320</Суммарное_x0020_время>
+            <Очки>798</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="123" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>111</Время-1>
+            <Время-2>110</Время-2>
+            <Время-3>100</Время-3>
+            <Суммарное_x0020_время>321</Суммарное_x0020_время>
+            <Очки>800</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="124" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>113</Время-3>
+            <Суммарное_x0020_время>413</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="125" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>117</Время-1>
+            <Время-2>75</Время-2>
+            <Время-3>162</Время-3>
+            <Суммарное_x0020_время>354</Суммарное_x0020_время>
+            <Очки>883</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="126" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>84</Время-2>
+            <Время-3>80</Время-3>
+            <Суммарное_x0020_время>344</Суммарное_x0020_время>
+            <Очки>751</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="127" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>166</Время-1>
+            <Время-2>103</Время-2>
+            <Время-3>153</Время-3>
+            <Суммарное_x0020_время>422</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="128" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>156</Время-1>
+            <Время-2>87</Время-2>
+            <Время-3>158</Время-3>
+            <Суммарное_x0020_время>401</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="129" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>126</Время-2>
+            <Время-3>152</Время-3>
+            <Суммарное_x0020_время>458</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="1210" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>119</Время-1>
+            <Время-2>106</Время-2>
+            <Время-3>133</Время-3>
+            <Суммарное_x0020_время>358</Суммарное_x0020_время>
+            <Очки>893</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="1211" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>92</Время-1>
+            <Время-2>86</Время-2>
+            <Время-3>95</Время-3>
+            <Суммарное_x0020_время>273</Суммарное_x0020_время>
+            <Очки>596</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="1212" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="1213" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>104</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>171</Время-3>
+            <Суммарное_x0020_время>455</Суммарное_x0020_время>
+            <Очки>993</Очки>
+          </_x0031_2>
+          <_x0031_2 diffgr:id="1214" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>90</Время-1>
+            <Время-2>151</Время-2>
+            <Время-3>157</Время-3>
+            <Суммарное_x0020_время>398</Суммарное_x0020_время>
+            <Очки>869</Очки>
+          </_x0031_2>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="G" xmlns:mstns="G" xmlns="G" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="G_x003A_13" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_3">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-5" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_3" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="G">
+          <_x0031_3 diffgr:id="131" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="132" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>93</Время-2>
+            <Время-3>90</Время-3>
+            <Время-4>85</Время-4>
+            <Время-5>80</Время-5>
+            <Суммарное_x0020_время>468</Суммарное_x0020_время>
+            <Очки>876</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="133" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>88</Время-2>
+            <Время-3>106</Время-3>
+            <Время-4>89</Время-4>
+            <Время-5>91</Время-5>
+            <Суммарное_x0020_время>494</Суммарное_x0020_время>
+            <Очки>925</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="134" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>120</Время-3>
+            <Время-4>120</Время-4>
+            <Время-5>91</Время-5>
+            <Суммарное_x0020_время>571</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="135" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>102</Время-2>
+            <Время-3>98</Время-3>
+            <Время-4>87</Время-4>
+            <Время-5>87</Время-5>
+            <Суммарное_x0020_время>494</Суммарное_x0020_время>
+            <Очки>925</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="136" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>112</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>86</Время-3>
+            <Время-4>87</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>525</Суммарное_x0020_время>
+            <Очки>907</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="137" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>120</Время-3>
+            <Время-4>120</Время-4>
+            <Время-5>108</Время-5>
+            <Суммарное_x0020_время>588</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="138" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>92</Время-3>
+            <Время-4>86</Время-4>
+            <Время-5>72</Время-5>
+            <Суммарное_x0020_время>490</Суммарное_x0020_время>
+            <Очки>918</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="139" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>108</Время-3>
+            <Время-4>120</Время-4>
+            <Время-5>111</Время-5>
+            <Суммарное_x0020_время>579</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="1310" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>78</Время-3>
+            <Время-4>120</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>558</Суммарное_x0020_время>
+            <Очки>964</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="1311" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>90</Время-1>
+            <Время-2>86</Время-2>
+            <Время-3>83</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>80</Время-5>
+            <Суммарное_x0020_время>414</Суммарное_x0020_время>
+            <Очки>775</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="1312" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="1313" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>86</Время-2>
+            <Время-3>88</Время-3>
+            <Время-4>120</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>534</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_3>
+          <_x0031_3 diffgr:id="1314" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>119</Время-1>
+            <Время-2>73</Время-2>
+            <Время-3>38</Время-3>
+            <Время-4>98</Время-4>
+            <Время-5>120</Время-5>
+            <Суммарное_x0020_время>448</Суммарное_x0020_время>
+            <Очки>774</Очки>
+          </_x0031_3>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="D" xmlns:mstns="D" xmlns="D" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="D_x003A_14" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_4">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-4" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-5" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-6" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-7" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_4" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="D">
+          <_x0031_4 diffgr:id="141" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>6</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="142" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>519</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="143" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>6</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>771</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="144" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="145" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Время-7>120</Время-7>
+            <Суммарное_x0020_время>525</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="146" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Суммарное_x0020_время>300</Суммарное_x0020_время>
+            <Очки>741</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="147" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="148" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>771</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="149" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Время-7>120</Время-7>
+            <Суммарное_x0020_время>525</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="1410" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Суммарное_x0020_время>300</Суммарное_x0020_время>
+            <Очки>741</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="1411" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>771</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="1412" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>4</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="1413" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Время-5>90</Время-5>
+            <Время-6>105</Время-6>
+            <Суммарное_x0020_время>405</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_4>
+          <_x0031_4 diffgr:id="1414" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>1</Судья>
+            <Время-1>30</Время-1>
+            <Время-2>45</Время-2>
+            <Время-3>60</Время-3>
+            <Время-4>75</Время-4>
+            <Суммарное_x0020_время>210</Суммарное_x0020_время>
+            <Очки>519</Очки>
+          </_x0031_4>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+    <DataTable>
+      <xs:schema id="NewDataSet" targetNamespace="J" xmlns:mstns="J" xmlns="J" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="J_x003A_15" msdata:UseCurrentLocale="true">
+          <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+              <xs:element name="_x0031_5">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Пилот" type="xs:string" />
+                    <xs:element name="Group" type="xs:string" minOccurs="0" />
+                    <xs:element name="Судья" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-1" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-2" type="xs:string" minOccurs="0" />
+                    <xs:element name="Время-3" type="xs:string" minOccurs="0" />
+                    <xs:element name="Суммарное_x0020_время" type="xs:string" minOccurs="0" />
+                    <xs:element name="Очки" type="xs:int" minOccurs="0" />
+                    <xs:element name="Штраф" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+          <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//mstns:_x0031_5" />
+            <xs:field xpath="mstns:Пилот" />
+          </xs:unique>
+        </xs:element>
+      </xs:schema>
+      <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <DocumentElement xmlns="J">
+          <_x0031_5 diffgr:id="151" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+            <Пилот>Бондарев Павел Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>7</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="152" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+            <Пилот>Бедарев Павел Григорьевич</Пилот>
+            <Group>1</Group>
+            <Судья>8</Судья>
+            <Время-1>91</Время-1>
+            <Время-2>113</Время-2>
+            <Время-3>65</Время-3>
+            <Суммарное_x0020_время>269</Суммарное_x0020_время>
+            <Очки>769</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="153" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+            <Пилот>Поротников Александр Викторович</Пилот>
+            <Group>1</Group>
+            <Судья>2</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="154" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+            <Пилот>Антонов Вадим Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>5</Судья>
+            <Время-1>124</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>94</Время-3>
+            <Суммарное_x0020_время>398</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="155" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+            <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+            <Group>2</Group>
+            <Судья>3</Судья>
+            <Время-1>135</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>150</Время-3>
+            <Суммарное_x0020_время>465</Суммарное_x0020_время>
+            <Очки>979</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="156" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+            <Пилот>Ерохин Андрей Викторович</Пилот>
+            <Group>2</Group>
+            <Судья>2</Судья>
+            <Время-1>180</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>97</Время-3>
+            <Суммарное_x0020_время>457</Суммарное_x0020_время>
+            <Очки>962</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="157" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+            <Пилот>Жданов Александр Иванович</Пилот>
+            <Group>1</Group>
+            <Судья>9</Судья>
+            <Время-1>120</Время-1>
+            <Время-2>125</Время-2>
+            <Время-3>89</Время-3>
+            <Суммарное_x0020_время>334</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="158" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+            <Пилот>Русский Павел Геннадьевич</Пилот>
+            <Group>2</Group>
+            <Судья>8</Судья>
+            <Время-1>109</Время-1>
+            <Время-2>120</Время-2>
+            <Время-3>180</Время-3>
+            <Суммарное_x0020_время>409</Суммарное_x0020_время>
+            <Очки>861</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="159" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+            <Пилот>Бащук Алексей Александрович</Пилот>
+            <Group>2</Group>
+            <Судья>1</Судья>
+            <Время-1>115</Время-1>
+            <Время-2>180</Время-2>
+            <Время-3>180</Время-3>
+            <Суммарное_x0020_время>475</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="1510" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+            <Пилот>Ткачук Андрей Николаевич</Пилот>
+            <Group>2</Group>
+            <Судья>9</Судья>
+            <Время-1>175</Время-1>
+            <Суммарное_x0020_время>175</Суммарное_x0020_время>
+            <Очки>368</Очки>
+            <Штраф>100</Штраф>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="1511" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+            <Пилот>Башкардинов Максим Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>5</Судья>
+            <Время-1>82</Время-1>
+            <Время-2>126</Время-2>
+            <Время-3>93</Время-3>
+            <Суммарное_x0020_время>301</Суммарное_x0020_время>
+            <Очки>860</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="1512" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+            <Пилот>Матвеев Антон Андреевич</Пилот>
+            <Group>2</Group>
+            <Судья>7</Судья>
+            <Время-1>0</Время-1>
+            <Суммарное_x0020_время>0</Суммарное_x0020_время>
+            <Очки>0</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="1513" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+            <Пилот>Кузнецов Иван Александрович</Пилот>
+            <Group>1</Group>
+            <Судья>4</Судья>
+            <Время-1>82</Время-1>
+            <Время-2>106</Время-2>
+            <Время-3>162</Время-3>
+            <Суммарное_x0020_время>350</Суммарное_x0020_время>
+            <Очки>1000</Очки>
+          </_x0031_5>
+          <_x0031_5 diffgr:id="1514" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+            <Пилот>Пронин Александр Владимирович</Пилот>
+            <Group>1</Group>
+            <Судья>3</Судья>
+            <Время-1>93</Время-1>
+            <Время-2>70</Время-2>
+            <Время-3>72</Время-3>
+            <Суммарное_x0020_время>235</Суммарное_x0020_время>
+            <Очки>671</Очки>
+          </_x0031_5>
+        </DocumentElement>
+      </diffgr:diffgram>
+    </DataTable>
+  </TasksScoresList>
+  <FligthMatrix>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FligthMatrix" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="FligthMatrix">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="_x2116_" type="xs:int" minOccurs="0" />
+                  <xs:element name="Пилот" type="xs:string" />
+                  <xs:element name="_x0028_1_x0029__x0020_L1x5in10" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_2_x0029__x0020_L2x4" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_3_x0029__x0020_AUp3x3" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_4_x0029__x0020_Laddr" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_5_x0029__x0020_Poker" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_6_x0029__x0020_3of6" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_7_x0029__x0020_1234" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_8_x0029__x0020_5x2_x003A_00" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_9_x0029__x0020_3200" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_10_x0029__x0020_L3x3" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_11_x0029__x0020_L1x5in10" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_12_x0029__x0020_3of6" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_13_x0029__x0020_5x2_x003A_00" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_14_x0029__x0020_Laddr" type="xs:string" minOccurs="0" />
+                  <xs:element name="_x0028_15_x0029__x0020_L3x3" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//FligthMatrix" />
+          <xs:field xpath="Пилот" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <DocumentElement>
+        <FligthMatrix diffgr:id="FligthMatrix1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+          <_x2116_>1</_x2116_>
+          <Пилот>Бондарев Павел Викторович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+          <_x2116_>2</_x2116_>
+          <Пилот>Бедарев Павел Григорьевич</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+          <_x2116_>3</_x2116_>
+          <Пилот>Поротников Александр Викторович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+          <_x2116_>4</_x2116_>
+          <Пилот>Антонов Вадим Викторович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+          <_x2116_>5</_x2116_>
+          <Пилот>Ломовцев Дмитрий Юрьевич</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+          <_x2116_>6</_x2116_>
+          <Пилот>Ерохин Андрей Викторович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+          <_x2116_>7</_x2116_>
+          <Пилот>Жданов Александр Иванович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+          <_x2116_>8</_x2116_>
+          <Пилот>Русский Павел Геннадьевич</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+          <_x2116_>9</_x2116_>
+          <Пилот>Бащук Алексей Александрович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix10" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+          <_x2116_>10</_x2116_>
+          <Пилот>Ткачук Андрей Николаевич</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>1</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix11" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+          <_x2116_>11</_x2116_>
+          <Пилот>Башкардинов Максим Владимирович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>1</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>2</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>1</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix12" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+          <_x2116_>12</_x2116_>
+          <Пилот>Матвеев Антон Андреевич</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>2</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>2</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>1</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>1</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>1</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>2</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>2</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix13" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+          <_x2116_>13</_x2116_>
+          <Пилот>Кузнецов Иван Александрович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>1</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>2</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>1</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>2</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+        <FligthMatrix diffgr:id="FligthMatrix14" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+          <_x2116_>14</_x2116_>
+          <Пилот>Пронин Александр Владимирович</Пилот>
+          <_x0028_1_x0029__x0020_L1x5in10>1</_x0028_1_x0029__x0020_L1x5in10>
+          <_x0028_2_x0029__x0020_L2x4>2</_x0028_2_x0029__x0020_L2x4>
+          <_x0028_3_x0029__x0020_AUp3x3>2</_x0028_3_x0029__x0020_AUp3x3>
+          <_x0028_4_x0029__x0020_Laddr>1</_x0028_4_x0029__x0020_Laddr>
+          <_x0028_5_x0029__x0020_Poker>1</_x0028_5_x0029__x0020_Poker>
+          <_x0028_6_x0029__x0020_3of6>2</_x0028_6_x0029__x0020_3of6>
+          <_x0028_7_x0029__x0020_1234>2</_x0028_7_x0029__x0020_1234>
+          <_x0028_8_x0029__x0020_5x2_x003A_00>1</_x0028_8_x0029__x0020_5x2_x003A_00>
+          <_x0028_9_x0029__x0020_3200>2</_x0028_9_x0029__x0020_3200>
+          <_x0028_10_x0029__x0020_L3x3>2</_x0028_10_x0029__x0020_L3x3>
+          <_x0028_11_x0029__x0020_L1x5in10>2</_x0028_11_x0029__x0020_L1x5in10>
+          <_x0028_12_x0029__x0020_3of6>2</_x0028_12_x0029__x0020_3of6>
+          <_x0028_13_x0029__x0020_5x2_x003A_00>1</_x0028_13_x0029__x0020_5x2_x003A_00>
+          <_x0028_14_x0029__x0020_Laddr>1</_x0028_14_x0029__x0020_Laddr>
+          <_x0028_15_x0029__x0020_L3x3>1</_x0028_15_x0029__x0020_L3x3>
+        </FligthMatrix>
+      </DocumentElement>
+    </diffgr:diffgram>
+  </FligthMatrix>
+  <CalcIsOutOfCreditPilots>false</CalcIsOutOfCreditPilots>
+  <CurrentRound>11</CurrentRound>
+  <GroupsCount>2</GroupsCount>
+</F3KTournamentSavedData>

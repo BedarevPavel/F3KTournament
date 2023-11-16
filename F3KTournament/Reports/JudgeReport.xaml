@@ -1,0 +1,24 @@
+﻿<Window x:Class="F3KTournament.Reports.JudgeReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F3KTournament.Reports"
+        xmlns:viewModel="clr-namespace:F3KTournament.ViewModel"
+        mc:Ignorable="d"
+        Title="Отчёт по распределению судей" Height="300" Width="300"
+        SizeToContent="WidthAndHeight" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="CenterCellStyle" TargetType="{x:Type DataGridCell}">
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <DataGrid x:Name="reportGrid" 
+                                  CanUserAddRows="False"
+                                  CanUserDeleteRows="False"
+                                  IsReadOnly="True"
+                                  CanUserReorderColumns="False"
+                  AutoGeneratingColumn="reportGrid_AutoGeneratingColumn"/>
+    </Grid>
+</Window>

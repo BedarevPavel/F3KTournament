@@ -1,0 +1,298 @@
+﻿<Window x:Class="F3KTournament.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F3KTournament"
+        xmlns:custom ="clr-namespace:F3KTournament.Code"
+        xmlns:converters ="clr-namespace:F3KTournament.ValueConverters"
+        xmlns:viewModel="clr-namespace:F3KTournament.ViewModel"
+        mc:Ignorable="d"
+        Title="F3K Турнир" Height="550" Width="725"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <converters:ForseScoreStyleConverter x:Key="ForseScoreConverter"/>
+        <converters:RowNumberConverter x:Key="RowNumberConverter"/>
+        <Style x:Key="CenterCellStyle" TargetType="{x:Type DataGridCell}">
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="ReadOnlyCellStyle" TargetType="{x:Type DataGridCell}">
+
+        </Style>
+        <Style x:Key="CanEditCellStyle" TargetType="{x:Type DataGridCell}">
+            <Setter Property="TextBlock.FontWeight"  Value="Bold"/>
+            <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="ForseScoreStyle" TargetType="TextBlock">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text, Converter={StaticResource ResourceKey=ForseScoreConverter}}" Value="true">
+                    <Setter Property="TextBlock.TextDecorations" Value="Strikethrough" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <SolidColorBrush x:Key="clBr" Color="Green" />
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" >
+            <MenuItem Header="Файл">
+                <MenuItem Header="Открыть" Command="{Binding OpenCommand}" />
+                <MenuItem Header="Сохранить" Command="{Binding SaveCommand}" />
+                <MenuItem Header="Сохранить как" Command="{Binding SaveAsCommand}" />
+                <MenuItem Header="Выход" Command="{Binding CloseCommand}" />
+            </MenuItem>
+            <MenuItem Header="Импорт">
+                <MenuItem Header="Список пилотов" Command="{Binding ImportPilotListCommand}"/>
+                <MenuItem Header="Полётная матрица" Command="{Binding ImportFlightMatrixCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Экспорт">
+                <MenuItem Header="Список пилотов" Command="{Binding ExportPilotListCommand}"/>
+                <MenuItem Header="Полётная матрица" Command="{Binding ExportFlightMatrixCommand}"/>
+                <MenuItem Header="Общий счёт" Command="{Binding ExportTotalScoresCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Печать">
+                <MenuItem Header="Полётные листы" Command="{Binding PrintFlightListsCommand}"/>
+                <MenuItem Header="Полётная матрица" 
+                          Command="{Binding PrintFlightMatrixCommand}"
+                          CommandParameter="{Binding ElementName=flightMatrixGrid, Mode=OneWay}"/>
+                <MenuItem Header="Результаты туров" Command="{Binding PrintTaskScoresCommand}"/>
+                <MenuItem Header="Общий счёт" Command="{Binding PrintTotalScoresCommand}"/>
+                <MenuItem Header="Командный зачёт" Command="{Binding PrintTeamScoresCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Отчёт">
+                <MenuItem Header="Распределение судей" Command="{Binding ReportJudgesCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Таймер" Command="{Binding RunTimerCommand}"/>
+        </Menu>
+        <CheckBox DockPanel.Dock="Top" Margin="5,5,0,5" IsChecked="{Binding CalcIsOutOfCreditPilots}" Cursor="Hand" HorizontalAlignment="Left">Учитывать результаты пилотов вне зачёта</CheckBox>
+        <Grid DockPanel.Dock="Bottom">
+            <TabControl SelectionChanged="Tabs_OnSelectionChanged">
+                <TabItem Header="Пилоты" x:Name="PilotsTab">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <DataGrid Grid.Row="0" x:Name="pilotsDg" ItemsSource="{Binding PilotList}" AutoGenerateColumns="False"
+                                  AlternationCount="{Binding PilotList.Count}"
+                                  CanUserAddRows="True"
+                                  CanUserDeleteRows="True"
+                                  IsReadOnly="False"
+                                  PreviewKeyDown="DataGrid_PreviewKeyDown"
+                                  EnableRowVirtualization="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding AlternationIndex, Mode=OneWay, RelativeSource={RelativeSource AncestorType=DataGridRow}, Converter={StaticResource RowNumberConverter}}"/>
+                                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"/>
+                                <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Отчество" Binding="{Binding MiddleName}"/>
+                                <DataGridTextColumn Header="Разряд" Binding="{Binding Rank}" CellStyle="{StaticResource CenterCellStyle}"/>
+                                <DataGridTextColumn Header="Команда" Binding="{Binding Team}"/>
+                                <DataGridTextColumn Header="Лицензия FAI" Binding="{Binding LicenseFAI}" CellStyle="{StaticResource CenterCellStyle}"/>
+                                <DataGridCheckBoxColumn Header="Вне зачёта" Binding="{Binding OutOfCredit}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel Grid.Row="1">
+                            <Button Command="{Binding AddPilotsFromDBCommand}" Content="Добавить пилотов из базы" Margin="7" Padding="5"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Судьи">
+                    <DockPanel>
+                        <DataGrid ItemsSource="{Binding JudgeList}" AutoGenerateColumns="False"
+                                  CanUserAddRows="True"
+                                  CanUserDeleteRows="True"
+                                  IsReadOnly="False">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Номер" Binding="{Binding Number}" CellStyle="{StaticResource CenterCellStyle}"/>
+                                <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Задания" >
+                    <DockPanel>
+                        <StackPanel>
+                            <Button Command="{Binding TaskUpCommand}" Margin="5" IsEnabled="{Binding TaskIsUpEnable}">Вверх</Button>
+                            <Button Command="{Binding TaskDownCommand}" Margin="5" IsEnabled="{Binding TaskIsDownEnable}">Вниз</Button>
+                            <Button Command="{Binding TaskAddCommand}" Margin="5">Добавить</Button>
+                            <Button Command="{Binding TaskDelCommand}" Margin="5" IsEnabled="{Binding TaskIsDelEnable}">Удалить</Button>
+                        </StackPanel>
+                        <DataGrid ItemsSource="{Binding TasksList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                  SelectedItem="{Binding SelectedTaskItem}"
+                                  AutoGenerateColumns="False"
+                                  CanUserAddRows="False"
+                                  CanUserDeleteRows="False"
+                                  SelectionMode="Single"
+                                  x:Name="TasksDG"
+                                  IsReadOnly="True">
+                            <DataGrid.CellStyle>
+                                <!--Override Highlighting so that its easy to see what is selected even when the control is not focused-->
+                                <Style TargetType="{x:Type DataGridCell}">
+                                    <Style.Triggers>
+                                        <Trigger  Property="IsSelected" Value="true">
+                                            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                                            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" />
+                                            <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                                        </Trigger>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsSelected}" Value="True" />
+                                                <Condition Binding="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}, Path=IsKeyboardFocusWithin}" Value="False" />
+                                            </MultiDataTrigger.Conditions>
+                                            <MultiDataTrigger.Setters>
+                                                <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}" />
+                                                <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" />
+                                            </MultiDataTrigger.Setters>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGrid.CellStyle>
+                            <DataGrid.InputBindings>
+                                <MouseBinding Gesture="LeftDoubleClick" Command="{Binding EditTaskCommand}"/>
+                            </DataGrid.InputBindings>
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Тур" Binding="{Binding Round}" CellStyle="{StaticResource CenterCellStyle}"/>
+                                <DataGridTextColumn Header="@" Binding="{Binding Index}" CellStyle="{StaticResource CenterCellStyle}"/>
+                                <DataGridTextColumn Header="Название" Binding="{Binding Title}"/>
+                                <DataGridTextColumn Header="Описание" Binding="{Binding Description}"/>
+                                <DataGridTextColumn Header="Краткое название" Binding="{Binding ShortTitle}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Полётная матрица" >
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,3">
+                            <Label>
+                                Кол-во групп:
+                            </Label>
+                            <TextBox Width="20px" 
+                                     PreviewTextInput="NumGroupsTextBox_PreviewTextInput" 
+                                     Text="{Binding GroupsCount}" 
+                                     TextAlignment="Center" 
+                                     VerticalAlignment="Center" 
+                                     HorizontalAlignment="Center" />
+                            <Button Margin="5,0,0,0" Padding="5,0,5,0" Command="{Binding GenerateFligthMatrixCommand}">Сгенерировать</Button>
+                        </StackPanel>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                                  VerticalScrollBarVisibility="Auto">
+                            <DataGrid x:Name="flightMatrixGrid"
+                                  ItemsSource="{Binding FligthMatrix.DefaultView}"
+                                  CanUserAddRows="False"
+                                  CanUserDeleteRows="False"
+                                  IsReadOnly="True"
+                                  CanUserReorderColumns="False"
+                                  AutoGeneratingColumn="flightMatrixGrid_AutoGeneratingColumn">
+
+                            </DataGrid>
+                        </ScrollViewer>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Результаты туров" >
+                    <DockPanel>
+                        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,3">
+                            <Label>
+                                Тур:
+                            </Label>
+                            <Button Content="&lt;" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding RoundDownCommand}" />
+                            <TextBox Width="20" Text="{Binding CurrentRound}" 
+                                     TextAlignment="Center" 
+                                     VerticalAlignment="Center" 
+                                     HorizontalAlignment="Center" 
+                                     IsReadOnly="True"/>
+                            <Button Content=">" HorizontalAlignment="Center" VerticalAlignment="Center" Command="{Binding RoundUpCommand}" />
+                            <Label Content="{Binding SelectedTask.Description}" Margin="5,0,0,0"/>
+                        </StackPanel>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                                  VerticalScrollBarVisibility="Auto">
+                            <custom:CustomDataGrid  
+                                ItemsSource="{Binding TaskScores.View}"
+                                ColumnHeaders="{Binding SubTasksHeaders}"
+                                SelectionUnit="Cell"
+                                CellEditEnding="DataGrid_CellEditEnding"
+                                CanUserAddRows="False"
+                                CanUserDeleteRows="False"
+                                CanUserReorderColumns="False"
+                                AutoGeneratingColumn="DataGrid_TaskScoresAutoGeneratingColumn">
+                                <custom:CustomDataGrid.GroupStyle>
+                                    <GroupStyle>
+                                        <GroupStyle.ContainerStyle>
+                                            <Style TargetType="{x:Type GroupItem}">
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type GroupItem}">
+                                                            <StackPanel>
+                                                                <StackPanel Orientation="Horizontal">
+                                                                    <TextBlock Text="{Binding Name, StringFormat=Группа №{0} }" Margin="15,3,3,3" />
+                                                                </StackPanel>
+                                                                <ItemsPresenter />
+                                                            </StackPanel>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </GroupStyle.ContainerStyle>
+                                    </GroupStyle>
+                                </custom:CustomDataGrid.GroupStyle>
+                            </custom:CustomDataGrid>
+                        </ScrollViewer>
+                    </DockPanel>
+                </TabItem>
+                <TabItem Header="Общий счёт" >
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                                  VerticalScrollBarVisibility="Auto">
+                        <custom:CustomDataGrid 
+                        ItemsSource="{Binding TotalScores}"
+                        ColumnHeaders="{Binding TasksHeaders}"
+                        SelectionUnit="Cell"
+                        CanUserAddRows="False"
+                        CanUserDeleteRows="False"
+                        CanUserReorderColumns="False"
+                        CanUserSortColumns="False"
+                        AutoGenerateColumns="true"
+                        IsReadOnly="True"
+                        AutoGeneratingColumn="DataGrid_TotalScoresAutoGeneratingColumn"
+                        >
+                        </custom:CustomDataGrid>
+                    </ScrollViewer>
+
+                </TabItem>
+                <TabItem Header="Командный зачёт" >
+                    <DataGrid 
+                        ItemsSource="{Binding TeamScores.View}"
+                        CanUserAddRows="False"
+                        CanUserDeleteRows="False"
+                        CanUserReorderColumns="False"
+                        CanUserSortColumns="False"
+                        AutoGeneratingColumn="DataGrid_TaskScoresAutoGeneratingColumn"
+                        >
+                        <DataGrid.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type GroupItem}">
+                                                    <StackPanel>
+                                                        <StackPanel Orientation="Horizontal">
+                                                            <TextBlock Text="{Binding Name}" Margin="15,3,3,3" />
+                                                        </StackPanel>
+                                                        <ItemsPresenter />
+                                                    </StackPanel>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.ContainerStyle>
+                            </GroupStyle>
+                        </DataGrid.GroupStyle>
+                    </DataGrid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </DockPanel>
+</Window>

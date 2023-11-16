@@ -1,0 +1,31 @@
+﻿<Window x:Class="F3KTournament.PrintElements.PrintTaskScores"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F3KTournament.PrintElements"
+        mc:Ignorable="d"
+        Title="Печать результатов туров" Height="673.525" Width="840.701" SizeToContent="Width"  Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" Orientation="Horizontal" Margin="0,5,1,5">
+            <Label Content="Тур:"/>
+            <ComboBox Margin="0,0,10,0" x:Name="RoundScoresDDL" SelectionChanged="RoundScoresDDL_SelectionChanged"/>
+            <Button Content="Печать"  Padding="10,3" HorizontalAlignment="Center" Click="Button_Click"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1">
+            <Border BorderBrush="Black" BorderThickness="1" Height="1122.51968503937" Width="793.700787401575">
+                <FlowDocumentScrollViewer x:Name="DocViewer" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+                    <FlowDocument PageHeight="1122.5" PageWidth="793.7" ColumnWidth="793.7">
+                        <Table x:Name="pTable" CellSpacing="0" BorderBrush="Black" BorderThickness="1,0,0,2">
+
+                        </Table>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+            </Border>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,296 @@
+﻿<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<style type="text/css">
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font: 12pt "Tahoma";
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 210mm;
+        height: 297mm;
+
+        padding: 10mm;
+        margin: 10mm auto;
+        border: 1px dotted;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            margin: 0;
+            border: 0px;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+        }
+    }
+	
+	.card-item{
+		height: 133.5mm;
+	}
+	.card-seporator{
+		height:10mm;
+	}
+	.card-col-1{
+		width: 65%;
+		height: 100%;
+		padding-right: 5mm;
+		float: left;
+	}
+	.card-col-2{
+		height: 100%;
+		display: inline-block;
+		width: 35%;
+	}
+	.info-big{
+		height: 100%;
+		border: 1px solid black;
+		position: relative;
+		display: inline-table;
+	}
+	.info-small{
+		height: 100%;
+		width: 100%;
+		border: 1px solid black;
+		position: relative;
+		display: inline-table;
+	}
+	.task-title {
+		text-align: center;
+		padding-bottom: 8px;
+		padding-top: 4px;
+		font-weight: bold;
+	}
+	.task-details table{
+		border-collapse: collapse;
+		width: 100%
+	}
+	.task-details td{
+		border: 1px solid black;
+		padding: 6px 3px;
+		word-break: break-word;
+	}
+	.task-details td:last-child{
+		border-right-width: 0px;
+	}
+	.task-details td:first-child {
+		border-left-width: 0px;
+	}
+	.task-details {
+		padding-bottom: 10px;
+	}
+	.task-info-desc {
+		font-size: 13px;
+		padding: 5px;
+	}
+	td.tour-group {
+		font-size: larger;
+		font-weight: bold;
+		text-align: center;
+	}
+	.sign {
+		padding-top: 6px;
+	}
+	.tasks-table table, th, td {
+		border: 1px solid black;
+	}
+	.tasks-table table{
+		border-collapse: collapse;
+		width: 100%;
+		text-align: center;
+	}
+	.tasks-table{
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		width:100%;
+	}
+	.tasks-table tr:nth-child(odd) {
+		font-weight: bold;
+	}
+	.task-table td:last-child{
+		border-right-width: 0px;
+	}
+	.task-table td:first-child{
+		border-right-width: 0px;
+	}
+	.tasks-table tr:nth-child(even) td {
+		padding: 7px;
+	}
+</style>
+<script type="text/javascript">
+	window.onload = function() { window.print(); }
+</script>
+</head>
+<body>
+<div id="book">
+    <div class="page">
+        <div class="card-item">
+			<div class="card-col-1">
+				<div class="info-big">
+					<div class="task-title">
+						<div class="task-inx">Упражнение "А"</div>
+						<div class="task-desc">(Последний полет)</div>
+					</div>
+					<div class="task-details">
+						<table>
+							<tr>
+								<td>Тур / Группа</td>
+								<td class="tour-group">1 / 2</td>
+							</tr>
+							<tr>
+								<td class="judge-number">Судья №7</td>
+								<td>
+									<div class="judge-fio">ФИО: Иванов Иван Иванович</div>
+									<div class="sign">Подпись:</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Пилот</td>
+								<td>
+									<div class="pilot-fio">ФИО: Петров Иван Иванович</div>
+									<div class="sign">Подпись:</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Штраф</td>
+								<td>
+									
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="task-info-desc">
+						 В течение рабочего времени пилот может запустить модель неограниченное количество раз, но только последнее полетное время будет принято и записано как итоговый результат.
+						 Любой запуск модели в течение рабочего времени отменяет предыдущий результат пилота.
+						 Максимальное полетное время 300 секунд (5 минут).
+						 Рабочее время – 10 минут.
+					</div>
+					<div class="tasks-table">
+						<table>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>7</td>
+								<td>8</td>
+								<td>9</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="card-col-2">
+				<div class="info-small">
+					<div class="task-title">
+						<div class="task-inx">Упражнение "А"</div>
+						<div class="task-desc">(Последний полет)</div>
+					</div>
+					<div class="task-details">
+						<table>
+							<tr>
+								<td>Тур / Группа</td>
+								<td class="tour-group">1 / 2</td>
+							</tr>
+							<tr>
+								<td class="judge-number">Судья №7</td>
+								<td>
+									<div class="judge-fio">ФИО: Иванов Иван Иванович</div>
+									<div class="sign">Подпись:</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Пилот</td>
+								<td>
+									<div class="pilot-fio">ФИО: Петров Иван Иванович</div>
+									<div class="sign">Подпись:</div>
+								</td>
+							</tr>
+							<tr>
+								<td>Штраф</td>
+								<td>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="tasks-table">
+						<table>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>7</td>
+								<td>8</td>
+								<td>9</td>
+								<td>10</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-seporator"></div>
+    </div>
+</div>
+</body>
+</html>

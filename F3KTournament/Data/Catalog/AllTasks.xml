@@ -1,0 +1,818 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTask xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Task>
+    <Index>A1</Index>
+    <Title>Last 5:00 in 10:00</Title>
+    <Rules>
+      В течение рабочего времени пилот может запустить модель неограниченное количество раз, но только последнее полетное время будет принято и записано как итоговый результат.
+      Любой запуск модели в течение рабочего времени отменяет предыдущий результат пилота.
+      Максимальное полетное время 300 секунд (5 минут).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Last flight, 5:00 max, 10:00 window</Description>
+    <Round>1</Round>
+    <TitleEn>Last 5:00 in 10:00</TitleEn>
+    <DescriptionEn>Last flight, 5:00 max, 10:00 window</DescriptionEn>
+    <ShortTitle>L1x5in10</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>300</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_A_last_flight_10min_window.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>1</ColCount2>
+    <Name>Последний полет</Name>
+  </Task>
+  <Task>
+    <Index>A2</Index>
+    <Title>Last 5:00 in 7:00</Title>
+    <Rules>
+      В течение рабочего времени пилот может запустить модель неограниченное количество раз, но только последнее полетное время будет принято и записано как итоговый результат.
+      Любой запуск модели в течение рабочего времени отменяет предыдущий результат пилота.
+      Максимальное полетное время 300 секунд (5 минут).
+      Рабочее время – 7 минут.
+    </Rules>
+    <Description>Last flight, 5:00 max, 7:00 window</Description>
+    <Round>1</Round>
+    <TitleEn>Last 5:00 in 7:00</TitleEn>
+    <DescriptionEn>Last flight, 5:00 max, 7:00 window</DescriptionEn>
+    <ShortTitle>L1x5in7</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>300</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_A_last_flight_7min_window.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>7_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>1</ColCount2>
+    <Name>Последний полет</Name>
+  </Task>
+  <Task>
+    <Index>B</Index>
+    <Title>Last 2 x 4:00</Title>
+    <Rules>
+      Каждый пилот имеет право на неограниченное количество полетов, но только последний и предпоследний полеты будут зачтены.
+      Максимальное полетное время 240 секунд (4 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Last 2 flights, 4:00 max, 10:00 window</Description>
+    <Round>2</Round>
+    <TitleEn>Last 2 x 4:00</TitleEn>
+    <DescriptionEn>Last 2 flights, 4:00 max, 10:00 window</DescriptionEn>
+    <ShortTitle>L2x4</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>240</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>240</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_B_last_two_4min.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>2</ColCount2>
+    <Name>Два последних полета</Name>
+  </Task>
+  <Task>
+    <Index>C1</Index>
+    <Title>All up 3 x 3:00</Title>
+    <Rules>
+      Все пилоты должны запустить модели одновременно, в течение 3-х секунд после сигнала. Запуск модели ранее сигнала либо по истечении 3-х секунд после него аннулирует результат за полет.
+      Максимальное полетное время 180 секунд (3 минуты).
+    </Rules>
+    <Description>All up, 3 flights, 3:00 max</Description>
+    <Round>3</Round>
+    <TitleEn>All up 3 x 3:00</TitleEn>
+    <DescriptionEn>All up, 3 flights, 3:00 max</DescriptionEn>
+    <ShortTitle>AUp3x3</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_C_all_up_3_flights.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Одновременный старт</Name>
+  </Task>
+  <Task>
+    <Index>C2</Index>
+    <Title>All up 4 x 3:00</Title>
+    <Rules>
+      Все пилоты должны запустить модели одновременно, в течение 3-х секунд после сигнала. Запуск модели ранее сигнала либо по истечении 3-х секунд после него аннулирует результат за полет.
+      Максимальное полетное время 180 секунд (3 минуты).
+    </Rules>
+    <Description>All up, 4 flights, 3:00 max</Description>
+    <Round>3</Round>
+    <TitleEn>All up 4 x 3:00</TitleEn>
+    <DescriptionEn>All up, 4 flights, 3:00 max</DescriptionEn>
+    <ShortTitle>AUp4x3</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_C_all_up_4_flights.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Одновременный старт</Name>
+  </Task>
+  <Task>
+    <Index>C3</Index>
+    <Title>All up 5 x 3:00</Title>
+    <Rules>
+      Все пилоты должны запустить модели одновременно, в течение 3-х секунд после сигнала. Запуск модели ранее сигнала либо по истечении 3-х секунд после него аннулирует результат за полет.
+      Максимальное полетное время 180 секунд (3 минуты).
+    </Rules>
+    <Description>All up, 5 flights, 3:00 max</Description>
+    <Round>3</Round>
+    <TitleEn>All up 5 x 3:00</TitleEn>
+    <DescriptionEn>All up, 5 flights, 3:00 max</DescriptionEn>
+    <ShortTitle>AUp5x3</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-5</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_C_all_up_5_flights.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>1_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>0_min_3_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Одновременный старт</Name>
+  </Task>
+  <Task>
+    <Index>D</Index>
+    <Title>Ladder +15 sec</Title>
+    <Rules>
+      В течение рабочего времени число полетов не ограничено. В начале упражнения пилоту устанавливается цель – совершить полет длительностью не менее 30 секунд. Таким образом полетное время должно быть равным или быть больше: 30, 45, 60, 75, 90, 105, 120 секунд.
+      Достигнутое время отметить знаком (+, V, Х).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</Description>
+    <Round>4</Round>
+    <TitleEn>Ladder +15 sec</TitleEn>
+    <DescriptionEn>Increasing times - 0:30, 0:45, 1:00, 1:15, 1:30, 1:45, 2:00, in 10:00 window</DescriptionEn>
+    <ShortTitle>Laddr</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>30</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>45</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>60</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>75</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>90</MaxTime>
+        <Text>T-5</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>105</MaxTime>
+        <Text>T-6</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-7</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_D_ladder.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>7</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>7</ColCount2>
+    <Name>Увеличение времени на 15 секунд</Name>
+  </Task>
+  <Task>
+    <Index>E</Index>
+    <Title>Poker</Title>
+    <Rules>
+      Перед запуском пилот заявляет и оглашает желаемое целевое время, которое становится максимально допустимым полетным временем.
+      Пилот может совершать неограниченное число полетов, чтобы достичь заявленного им времени. Только если ранее объявленная цель достигнута, пилот может заявить следующее целевое время.
+      Пилот может заявить не более 5 времен.
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Poker, 5 self nominated targets, 10:00 window</Description>
+    <Round>5</Round>
+    <TitleEn>Poker</TitleEn>
+    <DescriptionEn>Poker, 5 self nominated targets, 10:00 window</DescriptionEn>
+    <ShortTitle>Poker</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>0</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>0</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>0</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>0</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>0</MaxTime>
+        <Text>T-5</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_E_poker.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Покер</Name>
+  </Task>
+  <Task>
+    <Index>F</Index>
+    <Title>Best 3 of 6</Title>
+    <Rules>
+      Пилот может запустить модель не более 6 раз.
+      Максимальное полетное время - 180 секунд (3 минуты).
+      Итоговым результатом принимается сумма трех наибольших полетных времен.
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</Description>
+    <Round>6</Round>
+    <TitleEn>Best 3 of 6</TitleEn>
+    <DescriptionEn>Best 3 flights, 3:00 max, 6 launches only, 10:00 window</DescriptionEn>
+    <ShortTitle>3of6</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_F_3_of_6.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>6</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>3</ColCount2>
+    <Name>3 из 6</Name>
+  </Task>
+  <Task>
+    <Index>G</Index>
+    <Title>Best 5 x 2:00</Title>
+    <Rules>
+      Каждый пилот имеет право на неограниченное число полетов.
+      Только наилучшие пять полетных времен будут суммироваться для определения конечного результата.
+      Максимальное полетное время – 120 секунд (2 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Best 5 flights, 2:00 max, 10:00 window</Description>
+    <Round>7</Round>
+    <TitleEn>Best 5 x 2:00</TitleEn>
+    <DescriptionEn>Best 5 flights, 2:00 max, 10:00 window</DescriptionEn>
+    <ShortTitle>5x2:00</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-5</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_G_5x2.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Пять лучших полетов, пять по 2-е</Name>
+  </Task>
+  <Task>
+    <Index>H</Index>
+    <Title>1:00, 2:00, 3:00, 4:00</Title>
+    <Rules>
+      Каждый пилот имеет право на неограниченное число полетов.
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Best 4 flights, 1:00, 2:00, 3:00, 4:00 max in any order, 10:00 window</Description>
+    <Round>8</Round>
+    <TitleEn>1:00, 2:00, 3:00, 4:00</TitleEn>
+    <DescriptionEn>Best 4 flights, 1:00, 2:00, 3:00, 4:00 max in any order, 10:00 window</DescriptionEn>
+    <ShortTitle>1234</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>60</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>240</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_H_1_2_3_4.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>4</ColCount2>
+    <Name>1, 2, 3 и 4 минуты полета в любом порядке</Name>
+  </Task>
+  <Task>
+    <Index>I</Index>
+    <Title>Best 3 x 200s</Title>
+    <Rules>
+      В течение рабочего времени число полетов не ограничено. Только наилучшие три полета будут суммированы для определения конечного результата.
+      Максимальное время одного полета 200 секунд (3 минуты 20 секунд).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Best 3 flights, 200s (3:20) max, 10:00 window</Description>
+    <Round>9</Round>
+    <TitleEn>Best 3 x 200s</TitleEn>
+    <DescriptionEn>Best 3 flights, 200s (3:20) max, 10:00 window</DescriptionEn>
+    <ShortTitle>3200</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>200</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>200</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>200</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_I_3x200s.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>3</ColCount2>
+    <Name>Три лучших полета</Name>
+  </Task>
+  <Task>
+    <Index>J</Index>
+    <Title>Last 3 x 3:00</Title>
+    <Rules>
+      В течение рабочего времени число полетов не ограничено.
+      Только три крайних полета будут зачтены.
+      Максимальное время одного полета 180 секунд (3 минуты).
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Last 3 flights, 3:00 max, 10:00 window</Description>
+    <Round>10</Round>
+    <TitleEn>Last 3 x 3:00</TitleEn>
+    <DescriptionEn>Last 3 flights, 3:00 max, 10:00 window</DescriptionEn>
+    <ShortTitle>L3x3</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_J_last_three_3min.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>2</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>3</ColCount2>
+    <Name>Три крайних полета</Name>
+  </Task>
+  <Task>
+    <Index>K</Index>
+    <Title>Big Ladder</Title>
+    <Rules>
+      Каждый спортсмен обязан запустить свою модель строго пять раз, при целевых временах 60, 90, 120, 150, 180 секунд.
+      Целевые времена назначены в порядке возрастания.
+      Фактические результаты всех пяти полетов в пределах целевых времен (не превышающие их) суммируются для определения конечного результата.
+      Спортсмен не обязан достигать или превышать целевые времена для зачета каждого полета.
+      Рабочее время – 10 минут.
+    </Rules>
+    <Description>Big Ladder - 5 flights only, 1:00, 1:30, 2:00, 2:30, 3:00 targets, 10:00 window</Description>
+    <Round>11</Round>
+    <TitleEn>Big Ladder</TitleEn>
+    <DescriptionEn>Big Ladder - 5 flights only, 1:00, 1:30, 2:00, 2:30, 3:00 targets, 10:00 window</DescriptionEn>
+    <ShortTitle>BLddr</ShortTitle>
+    <SubTasks>
+      <SubTask>
+        <MaxTime>60</MaxTime>
+        <Text>T-1</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>90</MaxTime>
+        <Text>T-2</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>120</MaxTime>
+        <Text>T-3</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>150</MaxTime>
+        <Text>T-4</Text>
+      </SubTask>
+      <SubTask>
+        <MaxTime>180</MaxTime>
+        <Text>T-5</Text>
+      </SubTask>
+    </SubTasks>
+    <Audio>
+      <AudioInfo>
+        <FileName>description_task_K_big_ladder.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>3_min_0_sec_prep.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>10_min_working.mp3</FileName>
+      </AudioInfo>
+      <AudioInfo>
+        <FileName>30_sec_landing.mp3</FileName>
+      </AudioInfo>
+    </Audio>
+    <RowCount1>1</RowCount1>
+    <ColCount1>5</ColCount1>
+    <RowCount2>1</RowCount2>
+    <ColCount2>5</ColCount2>
+    <Name>Увеличение времени на 30 секунд</Name>
+  </Task>
+</ArrayOfTask>
